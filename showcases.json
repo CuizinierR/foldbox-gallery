@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "showcases": [
+    {
+      "id": "feyas-yann",
+      "gameTitle": "Le Marais de Feya",
+      "author": "Yann",
+      "description": "Rangement des composants en boîtes colorées.",
+      "coverImageUrl": "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/1.jpg",
+      "photoUrls": [
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/2.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/3.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/4.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/5.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/6.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/7.jpg"
+      ],
+      "folds": [
+        { "patternId": "masu", "quantity": 7 },
+        { "patternId": "masu", "quantity": 1, "size": "12 × 12 × 6 cm", "note": "Tableau de jeu" }
+      ],
+      "publicationDate": "2026-07-07"
+    },
+    {
+      "id": "narak-crystelle",
+      "gameTitle": "Les Ruines Perdues de Narak",
+      "author": "Crystelle",
+      "description": "Insert complet pour le jeu de base et les extensions.",
+      "coverImageUrl": "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/narak-crystelle/1.jpg",
+      "photoUrls": [
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/narak-crystelle/2.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/narak-crystelle/3.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/narak-crystelle/4.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/narak-crystelle/5.jpg"
+      ],
+      "folds": [
+        { "patternId": "masu", "quantity": 12 }
+      ],
+      "publicationDate": "2026-07-07"
+    },
+    {
+      "id": "koï-kev-british",
+      "gameTitle": "Koï",
+      "author": "Kev British",
+      "description": "Organisation modulaire avec étiquettes par type de composant.",
+      "coverImageUrl": "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/koï-kev-british/1.jpg",
+      "photoUrls": [
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/koï-kev-british/2.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/koï-kev-british/3.jpg",
+        "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/koï-kev-british/4.jpg"
+      ],
+      "folds": [
+        { "patternId": "masu", "quantity": 7 },
+        { "patternId": "masu", "quantity": 1, "size": "12 × 12 × 6 cm", "note": "Cartes développement" }
+      ],
+      "publicationDate": "2026-07-07"
+    }
+  ]
+}
