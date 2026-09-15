@@ -11,27 +11,45 @@ Version : `1.4.0` (versionCode `6`)
 ## 1. Data safety (réponses recommandées)
 
 ### Vue d’ensemble
-- L’app **collecte-t-elle des données utilisateur ?** → **Non** (pas de compte, pas d’analytics in-app, pas d’envoi de likes/favoris vers un serveur Foldbox).
-- Les préférences, likes et favoris restent **sur l’appareil** (AsyncStorage).
+- L’app **collecte-t-elle des données utilisateur ?** → **Oui**.
+- Les préférences et favoris de tutoriels restent **sur l’appareil** (AsyncStorage).
+- L’ouverture de la galerie crée un identifiant technique pseudonyme Supabase. Les J’aime de la galerie sont synchronisés avec cet identifiant.
 - Connexions réseau **à l’initiative de l’utilisateur / pour le contenu** :
   - GitHub (catalogue galerie)
-  - Google Forms (soumission volontaire d’une réalisation)
-  - YouTube (vidéos désactivées dans la bêta actuelle)
+  - Supabase (authentification pseudonyme, J’aime, soumissions et photos)
+  - YouTube (lorsqu’une vidéo de tutoriel est ouverte)
 
 ### Types de données
-Ne **pas** déclarer de collecte pour :
-- Localisation, contacts, photos de l’appareil, fichiers audio/vidéo locaux, calendrier, etc.
-- Identifiants appareil / pub / analytics Foldbox
+Déclarer pour la soumission facultative :
+- photos ;
+- contenu généré par l’utilisateur (nom du jeu, description, origamis utilisés) ;
+- nom ou pseudonyme facultatif ;
+- identifiant utilisateur pseudonyme Supabase.
 
-**Soumission galerie (optionnelle)** : si Play Console demande les données transmises à un tiers via formulaire externe, indiquer que l’utilisateur ouvre **Google Forms** dans le navigateur et y fournit volontairement texte/photos — traité par Google, hors app. Pas de SDK Google Forms embarqué.
+Déclarer également :
+- **Activité dans l’application → Autres actions** pour les J’aime de la galerie ;
+- **Identifiants → ID utilisateur** pour l’identifiant Supabase.
+
+Finalités : fonctionnalité de l’application, authentification, sécurité/prévention des abus, modération et publication communautaire. Les contenus et photos sont facultatifs et déclenchés par l’utilisateur. L’identifiant pseudonyme est créé lors de l’utilisation de la galerie. Les données ne sont pas utilisées pour la publicité ou l’analyse d’audience.
+
+Les données sont **liées à un identifiant pseudonyme**, mais ne servent pas au suivi publicitaire. Supabase agit comme prestataire de service ; la publication d’une réalisation approuvée est demandée et autorisée par l’utilisateur. Vérifier les réponses « partage » dans le formulaire Play selon ces exceptions officielles.
+
+Ne pas déclarer de collecte pour la localisation, les contacts, les fichiers audio, le calendrier, les identifiants publicitaires ou les favoris de tutoriels.
 
 ### Sécurité
 - Données chiffrées en transit (HTTPS) pour les appels réseau de l’app.
-- Les utilisateurs peuvent demander la suppression → **Oui** pour les données locales : désinstaller l’app / effacer le stockage app.
+- Les utilisateurs peuvent demander la suppression → **Oui** : données locales via la suppression des données de l’app ; données Supabase et soumissions via l’adresse de contact et la référence affichée après l’envoi.
+- Les contenus publics peuvent être signalés depuis leur fiche dans l’application.
 - Engagement à respecter la politique destinée aux familles : **Non** (app grand public / hobby, pas ciblée enfants en priorité) — adapter si tu coches « conçu pour les enfants ».
 
 ### Privacy policy URL
 `https://cuizinierr.github.io/foldbox-gallery/privacy.html`
+
+### User-generated content
+- Demander l’acceptation des règles avant chaque soumission.
+- Modérer chaque texte et photo avant publication.
+- Traiter les signalements reçus depuis l’application.
+- URL des règles : `https://cuizinierr.github.io/foldbox-gallery/community-guidelines.html`
 
 ---
 
