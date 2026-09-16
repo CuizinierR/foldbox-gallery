@@ -7,7 +7,6 @@ Document interne. Ne pas publier de données personnelles dans Git ou dans une i
 1. Supprimer les écritures `showcase_submission_upload_usage` âgées de plus de 30 jours.
 2. Examiner les soumissions `pending` ; aucune ne doit dépasser 12 mois.
 3. Supprimer sous 30 jours les fichiers privés d’une soumission rejetée.
-4. Vérifier les signalements reçus à l’adresse de contact.
 
 ## Demande d’une personne
 

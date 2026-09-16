@@ -39,7 +39,6 @@ Ne pas déclarer de collecte pour la localisation, les contacts, les fichiers au
 ### Sécurité
 - Données chiffrées en transit (HTTPS) pour les appels réseau de l’app.
 - Les utilisateurs peuvent demander la suppression → **Oui** : données locales via la suppression des données de l’app ; données Supabase et soumissions via l’adresse de contact et la référence affichée après l’envoi.
-- Les contenus publics peuvent être signalés depuis leur fiche dans l’application.
 - Engagement à respecter la politique destinée aux familles : **Non** (app grand public / hobby, pas ciblée enfants en priorité) — adapter si tu coches « conçu pour les enfants ».
 
 ### Privacy policy URL
@@ -48,7 +47,6 @@ Ne pas déclarer de collecte pour la localisation, les contacts, les fichiers au
 ### User-generated content
 - Demander l’acceptation des règles avant chaque soumission.
 - Modérer chaque texte et photo avant publication.
-- Traiter les signalements reçus depuis l’application.
 - URL des règles : `https://cuizinierr.github.io/foldbox-gallery/community-guidelines.html`
 
 ---
