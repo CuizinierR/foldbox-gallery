@@ -1,11 +1,17 @@
 {
-  "version": 1,
+  "version": 2,
   "showcases": [
     {
       "id": "feyas-yann",
-      "gameTitle": "Le Marais de Feya",
+      "gameTitle": {
+        "fr": "Le Marais de Feya",
+        "en": "Feya's Swamp"
+      },
       "author": "Yann",
-      "description": "Rangement des composants en boîtes colorées.",
+      "description": {
+        "fr": "Rangement des composants en boîtes colorées.",
+        "en": "Component storage in colorful boxes."
+      },
       "coverImageUrl": "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/1.jpg",
       "photoUrls": [
         "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/feyas-yann/2.jpg",
@@ -17,15 +23,26 @@
       ],
       "folds": [
         { "patternId": "masu", "quantity": 7 },
-        { "patternId": "masu", "quantity": 1, "size": "12 × 12 × 6 cm", "note": "Tableau de jeu" }
+        {
+          "patternId": "masu",
+          "quantity": 1,
+          "size": "12 × 12 × 6 cm",
+          "note": { "fr": "Tableau de jeu", "en": "Game board" }
+        }
       ],
       "publicationDate": "2026-07-07"
     },
     {
       "id": "narak-crystelle",
-      "gameTitle": "Les Ruines Perdues de Narak",
+      "gameTitle": {
+        "fr": "Les Ruines Perdues de Narak",
+        "en": "Lost Ruins of Arnak"
+      },
       "author": "Crystelle",
-      "description": "Insert complet pour le jeu de base et les extensions.",
+      "description": {
+        "fr": "Insert complet pour le jeu de base et les extensions.",
+        "en": "Complete insert for the base game and expansions."
+      },
       "coverImageUrl": "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/narak-crystelle/1.jpg",
       "photoUrls": [
         "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/narak-crystelle/2.jpg",
@@ -40,9 +57,12 @@
     },
     {
       "id": "koï-kev-british",
-      "gameTitle": "Koï",
+      "gameTitle": { "fr": "Koï", "en": "Koi" },
       "author": "Kev British",
-      "description": "Organisation modulaire avec étiquettes par type de composant.",
+      "description": {
+        "fr": "Organisation modulaire avec étiquettes par type de composant.",
+        "en": "Modular organization with labels for each component type."
+      },
       "coverImageUrl": "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/koï-kev-british/1.jpg",
       "photoUrls": [
         "https://raw.githubusercontent.com/CuizinierR/foldbox-gallery/main/content/koï-kev-british/2.jpg",
@@ -51,7 +71,12 @@
       ],
       "folds": [
         { "patternId": "masu", "quantity": 7 },
-        { "patternId": "masu", "quantity": 1, "size": "12 × 12 × 6 cm", "note": "Cartes développement" }
+        {
+          "patternId": "masu",
+          "quantity": 1,
+          "size": "12 × 12 × 6 cm",
+          "note": { "fr": "Cartes développement", "en": "Development cards" }
+        }
       ],
       "publicationDate": "2026-07-07"
     }
